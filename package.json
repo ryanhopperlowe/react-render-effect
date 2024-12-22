@@ -1,0 +1,24 @@
+{
+  "name": "react-render-effect",
+  "version": "1.0.0",
+  "type": "module",
+  "source": "src/index.ts",
+  "main": "dist/index.ts",
+  "module": "dist/index.module.ts",
+  "unpkg": "dist/index.umd.ts",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "react": "^19.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanhopperlowe/react-render-effect.git"
+  }
+}
